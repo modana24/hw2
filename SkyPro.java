@@ -68,7 +68,7 @@ public class SkyPro {
             var personWorkTime = 8;
             var person = allWorkTime / personWorkTime;
             System.out.println("Всего работников в компании - " + person + " человек");
-            System.out.println( );
+
             person += 94;
             allWorkTime = personWorkTime * person;
             System.out.println("Если в компани работает " + person + " человек, то всего " + allWorkTime + " часов работы может быть поделено между сотрудниками.");
